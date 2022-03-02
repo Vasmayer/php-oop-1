@@ -27,4 +27,10 @@ $movie2 = new Movie($title2,$genre2,$poster2,$ratings2,$cast2);
 
 var_dump($movie1);
 var_dump($movie2);
+
+$movie2->setRatings(4.1);
+$movie2->setPoster(null);
+$movie2->setTitle('Lo Hobbit due');
+
+var_dump($movie2);
 ?>
